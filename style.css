@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:  	SlateGray;
+    color: azure;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.main--header{
+ text-align: center;
+ color: aqua;
+ word-spacing: 10px;
+ font-size: 50px;
+ font-weight: 600;
+ margin-top: 50px;
+
+}
+.header-icon{
+    width: 40px;
+    height: 40px;
+    filter: invert(39%) sepia(76%) saturate(2752%) hue-rotate(14deg) brightness(106%) contrast(93%);
+}
+.main--section{
+    margin-top: 50px;
+    background-color: beige;
+    color: black;
+}
+.img--section{
+    padding: 10px;
+}
+.box1{
+    margin-top: 50px;
+    background-color: ghostwhite;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.main-img{
+    padding: 10px;
+    width: 640px;
+    height: 600px;
+}
+.income--expances{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 200px;
+    background-color: ghostwhite;
+    border-radius: 10px
+
+}
+.icome,
+.expences{
+    align-items: center;
+    margin-left: 30%;
+
+}
+.incone--title,
+.expences--title{
+    padding-top: 20px;
+    margin-left: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 600;
+}
+.income--p,
+.food--p{
+    letter-spacing: 5px;
+    color: blueviolet;
+}
+input{
+    width: 200px;
+    height: 35px;
+    border: 2px solid rgba(77, 165, 168, 0.479);
+    background: transparent;
+    margin-left: 30px;
+}
+.clothes--input{
+    margin-left: -3px;
+}
+input:focus{
+    outline: none;
+    }
+.calculate-btn{
+    margin-left: 80px;
+    width: 180px;
+    height: 50px;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 6px;
+    cursor: pointer;
+}
+.total--field{
+    padding-top: 30px;
+}
+.total-style{
+    color: chocolate;
+
+}
